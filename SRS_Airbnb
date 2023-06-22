@@ -38,8 +38,8 @@ Functional Requirements:
 	The system should provide a customer support feature for resolving issues and handling disputes.
 	The system should generate reports and analytics to provide insights into booking trends, property performance, and customer behavior.
 	The administrative team should have access to manage and monitor the platform, including user accounts, listings, and system settings.
-	Non-Functional Requirements:
 
+Non-Functional Requirements:
 Security:
 	Only registered customers should be allowed to make bookings and access personalized features.
 	The system should implement authentication mechanisms to ensure secure access to user accounts.
