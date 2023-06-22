@@ -1,0 +1,68 @@
+Document: System Requirement Specification Document
+
+Title: System Requirement Specification for Airbnb Website
+
+Team:
+
+Direct Customers
+Hosts
+Architects
+Business Analysts
+Quality Assurance Team
+System Analysts
+Objective (Purpose):
+The Airbnb website is intended to provide a platform where users can find, book, and list accommodations worldwide. The purpose of this system is to connect travelers (customers) with hosts who have available accommodations. The website aims to facilitate seamless booking experiences and enable hosts to manage their listings effectively.
+
+Scope:
+The Airbnb website allows travelers to search for accommodations based on their location, dates, and preferences. Users can view property listings, communicate with hosts, and book accommodations online. Hosts can create and manage their property listings, communicate with guests, and receive payments through the platform. The system also provides administrative functionalities for managing the platform and ensuring a smooth user experience.
+
+Definitions:
+
+Airbnb: Online platform for booking accommodations.
+QA: Quality Assurance.
+MIS: Management Information System.
+CRM: Customer Relationship Management.
+BI: Business Intelligence.
+Dashboard: Personalized information presented using BI techniques such as grids, scorecards, and graphs.
+Requirements:
+
+Functional Requirements:
+
+Any anonymous user should be able to search for available accommodations based on location, dates, and preferences.
+Registered customers should be able to create and manage their profiles.
+Customers should be able to view property listings with details such as descriptions, amenities, photos, reviews, and availability.
+Customers should be able to communicate with hosts through messaging functionality.
+Customers should be able to make bookings and payments securely through the website.
+Hosts should be able to create and manage their property listings, including property details, availability, pricing, and restrictions.
+Hosts should be able to communicate with guests and respond to booking inquiries.
+The system should provide a notification mechanism to inform hosts and customers about booking confirmations, updates, and cancellations.
+Customers should be able to leave reviews and ratings for properties they have booked.
+The system should provide a customer support feature for resolving issues and handling disputes.
+The system should generate reports and analytics to provide insights into booking trends, property performance, and customer behavior.
+The administrative team should have access to manage and monitor the platform, including user accounts, listings, and system settings.
+Non-Functional Requirements:
+
+Security:
+
+Only registered customers should be allowed to make bookings and access personalized features.
+The system should implement authentication mechanisms to ensure secure access to user accounts.
+Role-based security should be enforced to control access to specific features and data.
+All transactions and communication between users and the system should be encrypted using secure protocols.
+The system should have measures in place to protect against common security threats, such as SQL injection and cross-site scripting (XSS) attacks.
+Reliability:
+
+The system should regularly back up user and booking data to ensure data integrity and quick recovery in case of failures.
+Continuous system updates and maintenance should be performed to address any issues or bugs promptly.
+The system should be designed to handle a high volume of concurrent users and bookings without significant performance degradation.
+Measures should be taken to prevent service disruptions and ensure high availability.
+Availability:
+
+The website should be accessible 24/7, with minimal planned downtime for maintenance activities.
+The system should have monitoring capabilities to detect and address any performance or availability issues promptly.
+The system should be designed with fault-tolerant architecture to minimize the impact of failures.
+Maintainability:
+
+The system should use a scalable and modular architecture to facilitate future enhancements and updates.
+The codebase should follow industry-standard coding practices and be well-documented for ease of maintenance.
+Administrative tools should be provided to support system monitoring, configuration, and management.
+Separate environments should be maintained for production, testing, and development to ensure isolated and controlled deployments.
