@@ -9,11 +9,12 @@ Team:
 	Business Analysts
 	Quality Assurance Team
 	System Analysts
-	Objective (Purpose):
-		The Airbnb website is intended to provide a platform where users can find, book, and list accommodations worldwide. The purpose of this system is to 	connect travelers (customers) with hosts who have available accommodations. The website aims to facilitate seamless booking experiences and enable 	hosts 	to manage their listings effectively.
+
+Objective (Purpose):
+	The Airbnb website is intended to provide a platform where users can find, book, and list accommodations worldwide. The purpose of this system is to 	connect travelers (customers) with hosts who have available accommodations. The website aims to facilitate seamless booking experiences and enable hosts to manage their listings effectively.
 
 Scope:
-	The Airbnb website allows travelers to search for accommodations based on their location, dates, and preferences. Users can view property listings, communicate 	with hosts, and book accommodations online. Hosts can create and manage their property listings, communicate with guests, and receive payments through the 	platform. The system also provides administrative functionalities for managing the platform and ensuring a smooth user experience.
+	The Airbnb website allows travelers to search for accommodations based on their location, dates, and preferences. Users can view property listings, communicate 	with hosts, and book accommodations online. Hosts can create and manage their property listings, communicate with guests, and receive payments through the platform. The system also provides administrative functionalities for managing the platform and ensuring a smooth user experience.
 
 Definitions:
 	Airbnb: Online platform for booking accommodations.
@@ -66,7 +67,7 @@ Maintainability:
 
 Portability:
 	The website should be accessible through various devices, including desktops, laptops, tablets, and mobile devices.
-	The system should be deployable on different platforms and operating systems, including cloud infrastructure (such as Azure, AWS, or GCP).
+	The system should be deployable on different platforms and operating systems, including cloud infrastructure (such as Azure, AWS).
 
 Accessibility:
 	The website should comply with accessibility standards to ensure usability for users with disabilities.
@@ -94,7 +95,10 @@ Safety:
 	Proper firewall configurations and security measures should be implemented to safeguard the system from external threats.
 	Regular security audits and updates should be performed to address any vulnerabilities.
 
-Use Case Diagram (UML):
-	During the design phase, the system's requirements can be represented using UML (Unified Modeling Language), including use case diagrams, activity diagrams, 		state transition diagrams, class diagrams, deployment diagrams, and object diagrams.
-
+Use Case Diagram:
+			Activity diagram
+			State Transition diagram
+			Class diagram
+			deployment diagram
+			object diagram
  
